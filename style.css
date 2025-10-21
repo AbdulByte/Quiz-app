@@ -78,3 +78,72 @@ body {
 .incorrect {
   background: rgb(231, 33, 73);
 }
+
+/* ------------------- MEDIA QUERIES ------------------- */
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .app {
+    margin: 60px auto 0;
+    padding: 25px;
+  }
+
+  .app h1 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+  .quiz h2 {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  #next-btn {
+    width: 130px;
+    font-size: 15px;
+  }
+}
+
+/* Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  body {
+    background: #1ba97f; /* slightly darker shade for contrast */
+  }
+
+  .app {
+    width: 95%;
+    margin: 40px auto 0;
+    padding: 20px 15px;
+  }
+
+  .app h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .quiz {
+    padding: 10px 0;
+  }
+
+  .quiz h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #next-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+}
